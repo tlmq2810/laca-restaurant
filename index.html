@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laca Beer 24</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="bg-image text-white text-center py-5">
+        <div class="container">
+            <img src="img/logo.jpg" alt="Logo Nhà Hàng" class="mb-4" style="max-height: 150px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);">
+            <h1 class="display-4"><i class="fas fa-beer"></i>Laca Beer 24</h1>
+            <p class="lead"><i class="fas fa-star"></i> Bringing you a world-class dining experience.</p>
+            <a href="#reservation" class="btn btn-light btn-lg mt-4"><i class="fas fa-calendar-check"></i> Reserve a table now</a>
+            <div class="mt-4">
+                <a href="#about" class="text-white me-3"><i class="fas fa-info-circle"></i> About us</a>
+                <a href="#menu" class="text-white me-3"><i class="fas fa-list"></i> Menu</a>
+                <a href="#contact" class="text-white"><i class="fas fa-envelope"></i> Contact </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-yellow container my-5 text-center">
+        <h2 class="fw-bold" style="color: #dc3545;">About us,</h2>
+        <p class="lead"><i class="fas fa-clipboard-list"></i> Are you looking for a venue to host a large group event but unsure which option is right for you? Come to Laca Beer 24, where we promise you a perfect and memorable party experience! At Laca Beer 24, you will enjoy:<br>
+            - Exclusive access to a spacious, airy, and comfortable area for all your group’s dining and entertainment activities.<br>
+            - A diverse menu featuring delicious dishes prepared from fresh ingredients, ensuring food safety and hygiene.<br>
+            - Customized menu options to suit your budget, with enthusiastic guidance from our professional staff.<br>
+            - A top-tier experience with talented chefs and attentive, dedicated service.<br>
+            - Special discounts for large group bookings made in advance. 
+            
+        </p>
+        <img src="img/laca1.jpg" alt="About us" class="img-fluid rounded mt-4 img-highlight">    
+    </section>
+
+    <section id="menu" class="section-white container my-5">
+        <h2 class="text-center fw-bold">Special Menu</h2>
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca3.jpg" class="card-img-top" alt="Appetizers">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chicken Caesar Salad</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca2.jpg" class="card-img-top" alt="Main Courses">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Roasted Topside Beef</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca4.jpg" class="card-img-top" alt="Desserts">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Salted Egg Grilled Shrimp</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca5.jpg" class="card-img-top" alt="Salads">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Field Crab Hotpot with Beef</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca6.jpg" class="card-img-top" alt="Beverages">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Grilled Salmon</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/laca7.jpg" class="card-img-top" alt="Cocktails">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Brewed Rare Veal with Lemon</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="section-black container my-5 text-center">
+        <h2 class="fw-bold">Reserve a table now</h2>
+        <p class="lead">Ready to experience the best dining experience in town? Book your table now!</p>
+        <form>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input type="tel" id="phone" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="date" class="form-label">Reservation date</label>
+                    <input type="date" id="date" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="time" class="form-label">Reservation time</label>
+                    <input type="time" id="time" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="people" class="form-label">Number of people</label>
+                    <input type="number" id="people" class="form-control" required>
+                </div>
+            </div>
+            <button class="btn btn-danger w-100 mt-4"><i class="fas fa-calendar-check"></i>Book now</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section-white container my-5 text-center">
+        <h2 class="fw-bold">Get in Touch</h2>
+        <p class="lead">Have any questions or need assistance? Contact us today!</p>
+        <ul class="list-unstyled">
+            <li><i class="fas fa-phone"></i> Phone number: 093 636 83 63</li>
+            <li><i class="fas fa-envelope"></i> Email: laca24.mkt@gmail.com </li>
+            <li><i class="fas fa-map-marker-alt"></i> Address: 24 Ly Quoc Su, Hoan Kiem, Hanoi, Vietnam </li>
+        </ul>
+    </section>
+
+    <div id="map" style="width: 100%; height: 400px; margin: 20px 0;"></div>
+
+    <footer>
+        <p style="margin: 10px;">&copy; 2024 Laca Beer 24. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoTNnTAoG9HV8znRRxwsn9sQjWLoGT6Bs&callback=initMap" async defer></script>
+</body>
+</html>
